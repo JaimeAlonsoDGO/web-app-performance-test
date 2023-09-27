@@ -1,0 +1,35 @@
+# Web App Performance Test
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`arrURL:` An array of objects. Example [{"url": "http://example.com/users", "name":"Users"}]
+
+`JWT:` Your session JWT. Example: "Bearer ASDASDasdaDAS"
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd web-app-performance-test
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Run performance test
+
+```bash
+  npm run start
+```
